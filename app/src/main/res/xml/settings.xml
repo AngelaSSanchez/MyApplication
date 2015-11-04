@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+            android:title="@string/pref_settings_title"
+            android:key="pref_settings">
+            <CheckBoxPreference
+                android:key="pref_sync"
+                android:title="@string/pref_sync"
+                android:summary="@string/pref_sync_summ"
+                android:defaultValue="false" />
+            <EditTextPreference
+                android:key="pref_save"
+                android:title="@string/pref_save"
+                android:summary="@string/pref_save_summ"
+                android:defaultValue="miText.txt"/>
+        </PreferenceCategory>
+</PreferenceScreen>
